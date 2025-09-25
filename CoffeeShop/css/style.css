@@ -1,0 +1,73 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: #d2b48c; /* light brown */
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Header and Navigation */
+header {
+    background: #8b5e3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #d2b48c;
+    color: black;
+}
+
+/* Main Content */
+main {
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* Images */
+img {
+    display: block;              /* ensures image is centered */
+    margin: 20px auto;           /* centers with space above/below */
+    max-width: 600px;            /* large enough for clarity */
+    width: 100%;                 /* responsive */
+    height: auto;                /* keeps aspect ratio */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background: #8b5e3c;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
